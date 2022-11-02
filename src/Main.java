@@ -32,6 +32,17 @@ int allPaper = 480;
 int individualPaper = allPaper / allStudents;
 System.out.println("На каждого ученика рассчитано " + individualPaper + " листов бумаги");
 
+int bottleCarPerformanceForTwoMinutes = 16;
+int oneMinutePerformance = bottleCarPerformanceForTwoMinutes / 2;
+int perfomance20Minutes = oneMinutePerformance * 20;
+int perForDay = oneMinutePerformance * 60 * 24;
+int perForThreeDays = perForDay * 3;
+int perForMonth = perForThreeDays * 10;
+System.out.println("За 20 минут работы машина произвела бутылок " + perfomance20Minutes + " штук ");
+System.out.println("За день работы машина произвела бутылок " + perForDay + " штук ");
+System.out.println("За 3 дня работы  машина произвела бутылок " + perForThreeDays + " штук ");
+System.out.println("За месяц работы машина произвела бутылок " + perForMonth + " штук ");
+
 
 
     }
