@@ -43,7 +43,14 @@ System.out.println("За день работы машина произвела �
 System.out.println("За 3 дня работы  машина произвела бутылок " + perForThreeDays + " штук ");
 System.out.println("За месяц работы машина произвела бутылок " + perForMonth + " штук ");
 
-
-
+int totalPotsPaint = 120;
+int whitePaintForClass = 2;
+int brownPaintForClass = 4;
+int allPotsPaintsForClass = whitePaintForClass + brownPaintForClass;
+int totalClassesInSchool = totalPotsPaint / allPotsPaintsForClass;
+int brown = brownPaintForClass * totalClassesInSchool;
+int white = whitePaintForClass * totalClassesInSchool;
+System.out.println("В школе, где " + totalClassesInSchool + " классов, нужно " +
+       white + " банок белой краски и " + brown + " банок коричневой краски");
     }
 }
