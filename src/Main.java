@@ -52,5 +52,17 @@ int brown = brownPaintForClass * totalClassesInSchool;
 int white = whitePaintForClass * totalClassesInSchool;
 System.out.println("В школе, где " + totalClassesInSchool + " классов, нужно " +
        white + " банок белой краски и " + brown + " банок коричневой краски");
+
+int bananasWeight = 5 * 80;
+int milkWeight = 105 * 2;
+int iceWeight = 100 * 2;
+int eggsWeight = 4 *  70;
+int totalWeightSportEatInGramms = bananasWeight + milkWeight + iceWeight + eggsWeight;
+int grPerKg = 1000;
+float weightKg = totalWeightSportEatInGramms /(float)grPerKg;
+System.out.println("Общий вес спортивного завтрака составляет " + weightKg + " килограмм");
+
+
+
     }
 }
