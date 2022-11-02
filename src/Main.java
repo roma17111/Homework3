@@ -63,6 +63,20 @@ float weightKg = totalWeightSportEatInGramms /(float)grPerKg;
 System.out.println("Общий вес спортивного завтрака составляет " + weightKg + " килограмм");
 
 
+int weightKgSport = 7;
+int weightGrSport = weightKgSport * 1000;
+int grForDayOne = 250;
+int grForDayTwo = 500;
+int grAverage = (grForDayOne + grForDayTwo) / 2;
+int needDays250 = weightGrSport / grForDayOne;
+int needDays500 = weightGrSport / grForDayTwo;
+int needDaysAverage = weightGrSport / grAverage;
+System.out.println("Если спортсмен будет каждый день худеть на " + grForDayOne + " грамм, на всё похудение уйдёт " +
+        needDays250 + " дней");
+System.out.println("Если спортсмен будет каждый день худеть на " + grForDayTwo + " грамм, на всё похудение уйдёт " +
+                needDays500 + " дней");
+        System.out.println("Если спортсмен в среднем будет каждый день худеть на " + grAverage + " грамм, на всё похудение уйдёт " +
+                needDaysAverage + " дней");
 
     }
 }
