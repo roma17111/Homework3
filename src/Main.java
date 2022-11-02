@@ -24,6 +24,13 @@ byte ah = 1;
 char ai = 33;
 double aj = 3.45678;
 
+int lyudmilaPavlovnaStudents = 23;
+int annaSergeevnaStudents = 27;
+int ekaterinaAndreevnaStudents = 30;
+int allStudents = lyudmilaPavlovnaStudents + annaSergeevnaStudents + ekaterinaAndreevnaStudents;
+int allPaper = 480;
+int individualPaper = allPaper / allStudents;
+System.out.println("На каждого ученика рассчитано " + individualPaper + " листов бумаги");
 
 
 
