@@ -78,5 +78,29 @@ System.out.println("Если спортсмен будет каждый день
         System.out.println("Если спортсмен в среднем будет каждый день худеть на " + grAverage + " грамм, на всё похудение уйдёт " +
                 needDaysAverage + " дней");
 
+float masha = 67660;
+float denis = 83690;
+float kristina = 76230;
+float mashaYear = masha * 12;
+float denisYear = denis * 12;
+float kristinaYear = kristina * 12;
+float mashaUp = masha + (masha / 100 * 10);
+float denisUp = denis + (denis / 100 * 10);
+float kristinaUp = kristina + (kristina / 100 * 10);
+float mYearUp = mashaUp * 12;
+float kYearUp = kristinaUp * 12;
+float dYearUp = denisUp * 12;
+float mashYear = masha * 12;
+float denYear = denis * 12;
+float kriYear = kristina * 12;
+float mDifY = mYearUp - mashYear;
+float dDifY = dYearUp - denYear;
+float kDifY = kYearUp - kriYear;
+System.out.println("Маша теперь получает " + mashaUp + " рублей. Годовой доход вырос на " +
+        mDifY + " рубля.");
+System.out.println("Денис теперь получает " + denisUp + " рублей. Годовой доход Дениса вырос на " +
+        dDifY + " рублей.");
+System.out.println("Кристина теперь получает " + kristinaUp + " рубля. Её годовой доход вырос на " +
+        kDifY + " рублей.");
     }
 }
